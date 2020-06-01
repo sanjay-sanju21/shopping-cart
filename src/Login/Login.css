@@ -1,0 +1,40 @@
+
+.main-container {
+ height: 250px;
+  width: 460px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid #aca3a3;
+}
+.scart-lable {
+   display: flex;
+    padding-left: 40px;
+}
+
+.input-container {
+    text-align: center;
+    margin-top: 20px;
+} 
+    
+.input-container ::placeholder {
+    color: white;
+}
+.input-field {
+    text-align: center;
+    width: 260px;
+    height: 25px;
+    background-color: #dfd9d9;
+    border-radius: 2px;
+    border: 2px solid #b9b3b3;
+    border-radius: 6px;
+}
+.input-btn {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #b9b3b3;
+    border-radius: 6px;
+}
